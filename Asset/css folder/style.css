@@ -1,0 +1,79 @@
+:root {
+ --main: #fff;
+ --secondary: #585353;
+ --btn: #111;
+ --resume: orange;
+ --project: red;
+ --contact: aqua;
+
+}
+
+.navbar{
+ background-color: var(--main) !important;
+ color: var(--btn);
+}
+.navbar .navbar-brand{
+ color: var(--btn);
+}
+.navbar span{
+ font-size: bold ;
+ background-color: #111;
+ 
+}
+.navbar i{
+ color: var(--resume);
+}
+.navbar .navbar-nav a{
+ color: var(--secondary);
+}
+.navbar .navbar-nav a:hover{
+ color:  var(--secondary);
+}
+/*The hello section*/
+
+#hello .img-cont img{
+ border-radius: 50%;
+ width: 300px;
+ height: 300px;
+ margin-top: 100px;
+ float: inline-end;
+ 
+}
+#hello .content {
+margin-top: 100px;
+}
+#hello .content p {
+width :50%;
+margin-bottom: 3rem;
+}
+#hello  .car .one {
+background-color: var(--resume) !important;
+padding: 1rem;
+font-size: 1rem;
+border-radius: 50%;
+}
+#hello  .car .two {
+background-color: var(--project) !important;
+padding: 1rem;
+font-size: 1rem;
+border-radius: 50%;
+}
+#hello  .car .three {
+background-color: var(--contact) !important;
+padding: 1rem;
+font-size: 1rem;
+border-radius: 50%;
+}
+
+#hello  .car a{
+list-style-type: none;
+text-decoration: none;
+color: var(--btn) !important;
+
+}
+/*The last section*/
+#bottom{
+ margin-top: 3rem;
+}
+
+
